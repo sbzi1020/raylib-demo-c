@@ -11,7 +11,11 @@ brew install raylib pkg-config
 ## Compile and run your game
 
 ```bash
-./compile.sh YOUR_C_SOURCE_FIEL_NAME
+# Create `build` folder is not exists yet
+mkdir build
+
+# 
+./compile.sh src/YOUR_C_SOURCE_FIEL_NAME
 ```
 
 </br>
